@@ -57,3 +57,14 @@ nav img {
     width: 100%;
     /*shows the lines under the links*/
 }
+
+.text-box {
+    position: absolute;
+    width: 90%;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /*makes the text align at the center*/
+}
