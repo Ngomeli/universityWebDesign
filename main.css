@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+/*****************************HEADER SECTION**********************/
+
 header {
     min-height: 100vh;
     width: 100%;
@@ -133,5 +136,62 @@ nav .fas {
     .nav-links ul {
         padding: 30px;
         /*aligns the nav links well from the closing icon*/
+    }
+}
+
+
+/******************************COURSE SECTION************************/
+
+.course {
+    width: 80%;
+    margin: auto;
+    /*makes the text to be at the center*/
+    text-align: center;
+    /*fully aligns the text at the center*/
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
     }
 }
